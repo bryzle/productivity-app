@@ -1,64 +1,50 @@
-Pomodoro Timer
-Overview
-This Pomodoro Timer is a simple and effective productivity tool that helps you manage your work and break intervals using the Pomodoro Technique. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. It uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.
+Productivity Site
+Welcome to the Productivity Site! This project is designed to help users enhance their productivity using the Pomodoro technique by structuring work intervals and breaks.
 
 Features
-Customizable work and break intervals
-Visual and audio notifications
-Pause and resume functionality
-Statistics tracking for productivity analysis
+Pomodoro Timer: A user-friendly Pomodoro timer to manage work and break intervals effectively.
+Real-time Notifications: Alerts users at the start and end of work and break intervals with real-time notifications.
+Sound Alerts: Provides audio cues for better time management.
+User Testing & Feedback: Continuously improved through user testing and feedback sessions.
+Planned Features
+Heatmap Visualization: Plan to incorporate a heatmap for visualizing productivity patterns.
+Calendar Integration: Upcoming feature to allow better task scheduling and tracking.
 Getting Started
 Prerequisites
-Before you begin, ensure you have met the following requirements:
+Ensure you have the following installed:
 
-Node.js (if applicable)
-npm (if applicable)
+Node.js
+npm
 Installation
-To install the Pomodoro Timer, follow these steps:
-
 Clone the repository:
+
 bash
 Copy code
-git clone https://github.com/bryzle/productivity-app
+git clone https://github.com/yourusername/productivity-site.git
 Navigate to the project directory:
+
 bash
 Copy code
-cd pomodoro-timer
+cd productivity-site
 Install the dependencies:
+
 bash
 Copy code
 npm install
 Usage
-To start the Pomodoro Timer, run the following command:
+Start the development server:
 
 bash
 Copy code
 npm start
-Configuration
-You can customize the timer settings by modifying the config.js file. The default settings are:
+Open your browser and navigate to http://localhost:3000 to use the Pomodoro timer.
 
-javascript
-Copy code
-module.exports = {
-workDuration: 25, // Work interval in minutes
-shortBreak: 5, // Short break interval in minutes
-longBreak: 15, // Long break interval in minutes
-cyclesBeforeLongBreak: 4 // Number of work intervals before a long break
-};
 Contributing
-If you want to contribute to this project, please follow these steps:
+We welcome contributions! Please follow these steps:
 
 Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes and commit them:
-bash
-Copy code
-git commit -m 'Add some feature'
-Push to the branch:
-bash
-Copy code
-git push origin feature/your-feature-name
-Create a pull request.
+Create your feature branch (git checkout -b feature/AmazingFeature).
+Commit your changes (git commit -m 'Add some AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a Pull Request.
+License
