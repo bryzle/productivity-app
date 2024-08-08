@@ -8,6 +8,7 @@ User Testing & Feedback: Continuously improved through user testing and feedback
 Planned Features
 Heatmap Visualization: Plan to incorporate a heatmap for visualizing productivity patterns.
 Calendar Integration: Upcoming feature to allow better task scheduling and tracking.
+Task List Management: Implementing a task list feature to help users organize and prioritize their tasks.
 Getting Started
 Prerequisites
 Ensure you have the following installed:
@@ -46,4 +47,3 @@ Create your feature branch (git checkout -b feature/AmazingFeature).
 Commit your changes (git commit -m 'Add some AmazingFeature').
 Push to the branch (git push origin feature/AmazingFeature).
 Open a Pull Request.
-License
