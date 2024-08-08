@@ -1,4 +1,3 @@
-Productivity Site
 Welcome to the Productivity Site! This project is designed to help users enhance their productivity using the Pomodoro technique by structuring work intervals and breaks.
 
 Features
